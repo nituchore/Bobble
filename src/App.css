@@ -1,0 +1,82 @@
+
+.App {
+  text-align: center;
+}
+.navbar{
+	display: flex;
+}
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+	position:relative;
+    left: 47%; /* 50% of your logo width */
+	align-items: center;
+  justify-content: center;
+}
+h1{
+	font-weight:300;
+	font-style:normal;
+	font-size:2em;
+}
+.pt{
+	width:70%;
+	height: 10px;
+  	border: 0;
+ 	 box-shadow: 0 10px 10px -10px #e7e6e6 inset;
+}
+#signup{
+	width:50%;
+	margin:25px auto;
+	text-align: center !important;
+	border: 1px solid gray;
+	padding:5em;
+	
+}
+span{
+	font-size:0.8em;
+}
+
+.opt{
+	margin-bottom:0.7rem;
+}
+.opt1{
+	width:100%;
+	padding:0;
+	padding-top:5px;
+	padding-left:10px;
+	background-color:white;
+	border-top:1px solid #e7e6e6 ;
+	border-left:2px solid #e7e6e6 ;
+	border-right:1px solid #e7e6e6 ;
+	border-bottom:2px solid #e7e6e6;
+	border-radius:8px;
+	text-align:center;
+	justify-content:center;
+	font-size:0.8em;
+}
+.divider {
+	padding:0;
+  	display: inline-block;
+	border: 1px solid black;
+	width:100%;
+	border-top: medium #333;
+	color: #333;
+	text-align: center;
+}
+.divider:after {
+	content: "or";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1em;
+	padding: 0 0.25em;
+	background: white;
+}
+.ig{
+	display:inline-block;
+	height:2.5em;
+	float:left;
+}
+.forminput{
+	display:block;
+}

@@ -18,3 +18,7 @@ This Project is a Simple ReactJS Project which demonstrates the following
 * **Get Google fonts**
 	
 	Refer to https://fonts.google.com/specimen/Roboto
+
+* **Install React Router**
+	
+	$ npm install --save react-router-dom
